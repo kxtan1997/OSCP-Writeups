@@ -118,7 +118,9 @@ Retrieved the proof flag:
 1349b15495303715c2397fc852d25ffa
 ```
 
-**Note:** An alternate privilege escalation pathway was found in `/etc/phpmyadmin/config-db.php`, which contained MySQL credentials:
+## Alternative Privilege Escalation — phpmyadmin config-db.php
+
+The file `/etc/phpmyadmin/config-db.php` contains MySQL credentials readable by `www-data`:
 
 ```
 $dbuser='phpmyadmin';
@@ -126,3 +128,5 @@ $dbpass='tgbzhnujm!';
 ```
 
 Based on user privileges, the admin user was deduced to be `karla`. SSHing in as `karla:tgbzhnujm!` revealed full sudo access (`(ALL : ALL) ALL`), allowing a root shell via `sudo /bin/bash`.
+
+Credit: [Antonio — OffSec PG: FunboxEasyEnum Walkthrough](https://medium.com/@inotp/offsec-pg-funboxeasyenum-walkthrough-2d5012f9ecc7)

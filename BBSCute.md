@@ -114,7 +114,7 @@ Ran linpeas.sh and noted that `copyfail` and `DirtyFrag` did not work. The key f
 -rwsr-sr-x 1 root root 154K Sep  6  2014 /usr/sbin/hping3
 ```
 
-Gained a privileged shell using `hping3` (via GTFOBins):
+Used the GTFOBins reference for the SUID `hping3` binary to craft the root shell command ([GTFOBins — hping3](https://gtfobins.org/gtfobins/hping3/#shell)):
 
 ```
 www-data@lab-pg-debian10-bbscute-244-189:/tmp$ hping3

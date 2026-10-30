@@ -13,3 +13,4 @@ Proving Grounds Play write-ups completed as part of OSCP preparation.
 | [Moneybox](Moneybox.md) | Easy |
 | [Monitoring](Monitoring.md) | Easy |
 | [Potato](Potato.md) | Easy |
+| [Seppuku](Seppuku.md) | Easy |

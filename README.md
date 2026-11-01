@@ -8,6 +8,7 @@ Proving Grounds Play write-ups completed as part of OSCP preparation.
 | [BBSCute](BBSCute.md) | Easy |
 | [Blogger](Blogger.md) | Easy |
 | [ColdBoxEasy](ColdBoxEasy.md) | Easy |
+| [DC-9](DC-9.md) | Medium |
 | [DriftingBlues6](DriftingBlues6.md) | Easy |
 | [FunboxEasyEnum](FunboxEasyEnum.md) | Easy |
 | [Gaara](Gaara.md) | Easy |

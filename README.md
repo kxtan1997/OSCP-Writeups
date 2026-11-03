@@ -13,6 +13,7 @@ Proving Grounds Play write-ups completed as part of OSCP preparation.
 | [FunboxEasyEnum](FunboxEasyEnum.md) | Easy |
 | [Gaara](Gaara.md) | Easy |
 | [Katana](Katana.md) | Easy |
+| [Loly](Loly.md) | Easy |
 | [Moneybox](Moneybox.md) | Easy |
 | [Monitoring](Monitoring.md) | Easy |
 | [Potato](Potato.md) | Easy |

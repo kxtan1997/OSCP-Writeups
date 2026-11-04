@@ -18,5 +18,6 @@ Proving Grounds Play write-ups completed as part of OSCP preparation.
 | [Monitoring](Monitoring.md) | Easy |
 | [Potato](Potato.md) | Easy |
 | [Seppuku](Seppuku.md) | Easy |
+| [SoSimple](SoSimple.md) | Medium |
 | [Stapler](Stapler.md) | Medium |
 | [Vegeta1](Vegeta1.md) | Easy |

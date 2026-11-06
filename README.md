@@ -10,6 +10,7 @@ Proving Grounds Play write-ups completed as part of OSCP preparation.
 | [ColdBoxEasy](ColdBoxEasy.md) | Easy |
 | [DC-9](DC-9.md) | Medium |
 | [DriftingBlues6](DriftingBlues6.md) | Easy |
+| [Funbox](Funbox.md) | Medium |
 | [FunboxEasyEnum](FunboxEasyEnum.md) | Easy |
 | [Gaara](Gaara.md) | Easy |
 | [Katana](Katana.md) | Easy |

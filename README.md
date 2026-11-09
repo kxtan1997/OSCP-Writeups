@@ -23,4 +23,5 @@ Proving Grounds Play write-ups completed as part of OSCP preparation.
 | [SoSimple](SoSimple.md) | Intermediate |
 | [Stapler](Stapler.md) | Intermediate |
 | [Tre](Tre.md) | Intermediate |
+| [GlasgowSmile](GlasgowSmile.md) | Hard |
 | [InsanityHosting](InsanityHosting.md) | Hard |

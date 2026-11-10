@@ -33,3 +33,4 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 | Machine | Difficulty |
 |---------|-----------|
 | [Hub](Proving-Ground-Practice/Hub.md) | Easy |
+| [Levram](Proving-Ground-Practice/Levram.md) | Easy |

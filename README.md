@@ -35,3 +35,4 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 | [Codo](Proving-Ground-Practice/Codo.md) | Easy |
 | [Hub](Proving-Ground-Practice/Hub.md) | Easy |
 | [Levram](Proving-Ground-Practice/Levram.md) | Easy |
+| [RubyDome](Proving-Ground-Practice/RubyDome.md) | Easy |

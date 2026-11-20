@@ -34,6 +34,7 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 |---------|---------|-----------|
 | [Astronaut](Proving-Ground-Practice/Astronaut.md) | Linux | Easy |
 | [Codo](Proving-Ground-Practice/Codo.md) | Linux | Easy |
+| [Exfiltrated](Proving-Ground-Practice/Exfiltrated.md) | Linux | Easy |
 | [Hub](Proving-Ground-Practice/Hub.md) | Linux | Easy |
 | [Levram](Proving-Ground-Practice/Levram.md) | Linux | Easy |
 | [Monster](Proving-Ground-Practice/Monster.md) | Windows | Easy |

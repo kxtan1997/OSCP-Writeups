@@ -40,3 +40,4 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 | [Monster](Proving-Ground-Practice/Monster.md) | Windows | Easy |
 | [RubyDome](Proving-Ground-Practice/RubyDome.md) | Linux | Easy |
 | [Squid](Proving-Ground-Practice/Squid.md) | Windows | Easy |
+| [Twiggy](Proving-Ground-Practice/Twiggy.md) | Linux | Easy |

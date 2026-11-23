@@ -32,6 +32,7 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 
 | Machine | OS | Difficulty |
 |---------|---------|-----------|
+| [Algernon](Proving-Ground-Practice/Algernon.md) | Windows | Easy |
 | [Astronaut](Proving-Ground-Practice/Astronaut.md) | Linux | Easy |
 | [Codo](Proving-Ground-Practice/Codo.md) | Linux | Easy |
 | [Exfiltrated](Proving-Ground-Practice/Exfiltrated.md) | Linux | Easy |

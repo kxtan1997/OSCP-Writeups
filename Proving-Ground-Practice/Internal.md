@@ -146,7 +146,7 @@ Native LAN manager: Windows Server (R) 2008 Standard 6.0
 
 - No interesting findings from SMB enumeration.
 
-Port **5357** (WSDAPI / Web Services for Devices) was investigated online. It is associated with CVE-2009-2512, but the target runs Windows Server 2008 SP1 (not Gold/SP2) and no working exploits were found for this specific version.
+Port **5357** (WSDAPI / Web Services for Devices) was investigated online — [Port 5357 / WSDAPI Web Services for Devices](https://www.pentestpad.com/port-exploit/port-5357-wsdapi-web-services-for-devices). It is associated with CVE-2009-2512, but the target runs Windows Server 2008 SP1 (not Gold/SP2) and no working exploits were found for this specific version.
 
 Returned to SMB vulnerability scanning. The initial `autorecon` scan had filtered out certain vulnerability checks:
 

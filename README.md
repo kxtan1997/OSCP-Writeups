@@ -37,12 +37,12 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 | [Codo](Proving-Ground-Practice/Codo.md) | Linux | Easy |
 | [Exfiltrated](Proving-Ground-Practice/Exfiltrated.md) | Linux | Easy |
 | [Hub](Proving-Ground-Practice/Hub.md) | Linux | Easy |
+| [Internal](Proving-Ground-Practice/Internal.md) | Windows | Easy |
 | [Kevin](Proving-Ground-Practice/Kevin.md) | Windows | Easy |
 | [Levram](Proving-Ground-Practice/Levram.md) | Linux | Easy |
 | [Monster](Proving-Ground-Practice/Monster.md) | Windows | Easy |
 | [RubyDome](Proving-Ground-Practice/RubyDome.md) | Linux | Easy |
 | [Squid](Proving-Ground-Practice/Squid.md) | Windows | Easy |
-| [Internal](Proving-Ground-Practice/Internal.md) | Windows | Easy |
 | [Twiggy](Proving-Ground-Practice/Twiggy.md) | Linux | Easy |
 | [Sea](Proving-Ground-Practice/Sea.md) | Linux | Intermediate |
 | [Workaholic](Proving-Ground-Practice/Workaholic.md) | Linux | Intermediate |

@@ -44,6 +44,7 @@ Proving Grounds write-ups completed as part of OSCP preparation.
 | [RubyDome](Proving-Ground-Practice/RubyDome.md) | Linux | Easy |
 | [Squid](Proving-Ground-Practice/Squid.md) | Windows | Easy |
 | [Twiggy](Proving-Ground-Practice/Twiggy.md) | Linux | Easy |
+| [BitForge](Proving-Ground-Practice/BitForge.md) | Linux | Intermediate |
 | [Sea](Proving-Ground-Practice/Sea.md) | Linux | Intermediate |
 | [SpiderSociety](Proving-Ground-Practice/SpiderSociety.md) | Linux | Intermediate |
 | [Workaholic](Proving-Ground-Practice/Workaholic.md) | Linux | Intermediate |
